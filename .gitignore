@@ -1,0 +1,30 @@
+# Java build artifacts
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.tar.gz
+
+# Node / Frontend artifacts
+node_modules/
+dist/
+.env*
+.rollup.cache/
+
+# IDE / System files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+
+# Local application state / logs
+*.log
+run.log
+worker-id-*.txt
+screenshot*.png
+*.webp
